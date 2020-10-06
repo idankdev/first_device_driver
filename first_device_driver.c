@@ -22,7 +22,7 @@ static dev_t dev = 0;
 static struct cdev cdev;
 static struct class *device_class;
 static uint8_t *kernel_buffer;
-uint ret = 0;
+uint8_t ret = 0;
 
 static int __init hello_world_init(void);
 static void __exit hello_world_exit(void);
